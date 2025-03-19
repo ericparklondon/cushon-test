@@ -4,7 +4,7 @@ import { Fund } from "../interfaces";
 import { useMakePortfolio } from "../hooks";
 import { PortfolioModal } from "./PortfolioModal";
 
-export const FundPicker: FC<unknown> = () => {
+export const FundPicker: FC<{}> = () => {
   const [showPortfolio, setShowPortfolio] = useState(false);
   const { addNewFund, portfolioFunds, removeFund, updateFund, confirmFunds } =
     useMakePortfolio();
