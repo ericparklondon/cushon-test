@@ -2,8 +2,6 @@
 
 ## Getting up and unning
 
-Install the plugin from npm:
-
 ```shell
 npm install
 npm run dev
